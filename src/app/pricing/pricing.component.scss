@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+.pricingtop {
+  background: linear-gradient(
+      to right,
+      rgba(39, 70, 133, 0.8) 0%,
+      rgba(61, 179, 197, 0.8) 100%
+    ),
+    url(../../assets/image/features-fondo.jpg);
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.pricingtop .wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: -200px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .pricingtop .wave {
+    bottom: -200px;
+    margin-bottom: 30px;
+  }
+}
+
+.pricingtop .wave svg {
+  width: 100%;
+}
+
+.pricingtopcontent {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+.pricingtopcontent h1 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricingtopcontent p {
+  color: rgb(215, 233, 250);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: initial;
+}
+
+.section {
+  margin-top: 170px;
+  padding: 120px;
+}
+
+.section-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container p {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: 'Inter', sans-serif;
+  font-style: inherit;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.pricing {
+  padding: 50px;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 12rem !important;
+  position: relative;
+  border-radius: 4px;
+  color: #000000;
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pricing h3 {
+  color: #2d71a1;
+  padding: 10px;
+}
+
+.pricing .price-cta {
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.pricing .price-cta .price {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.pricing ul {
+  margin-bottom: 50px;
+}
+.pricing ul li {
+  margin-bottom: 10px;
+}
+
+.pricing .btn-white {
+  background: #fff;
+  border: 2px solid rgb(230, 229, 229);
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.253);
+}
+
+.pricing .btn-white:hover {
+  color: #2d71a1;
+}
+
+.footer {
+  padding: 5px;
+  background-color: #2d71a1;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+  color: rgb(215, 233, 250);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.footer h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: azure;
+  font-weight: 600;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: rgb(215, 233, 250);
+  text-decoration: none;
+}
+
+.footer .social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  line-height: 30px;
+  color: black;
+  background-color: rgb(100, 170, 236);
+  text-align: center;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.footer .social a:hover {
+  color: azure;
+}
+
+.footer .copyright {
+  margin-bottom: 0px;
+  
+}
+
+.footer .copyright,
+.footer .credits {
+  color: aliceblue;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}

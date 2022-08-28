@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+.aboutustop {
+  background: linear-gradient(
+      to right,
+      rgba(39, 70, 133, 0.8) 0%,
+      rgba(61, 179, 197, 0.8) 100%
+    ),
+    url(../../assets/image/features-fondo.jpg);
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.aboutustop .wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: -200px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .aboutustop .wave {
+    bottom: -200px;
+    margin-bottom: 30px;
+  }
+}
+
+.aboutustop .wave svg {
+  width: 100%;
+}
+
+.aboutustopcontent {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+.aboutustopcontent h1 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.aboutustopcontent p {
+  color: rgb(215, 233, 250);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: initial;
+}
+
+.section {
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.container {
+  margin-top: 90px;
+}
+
+.section-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-fluid {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 700px;
+  height: auto;
+}
+
+.hero-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.section .icon {
+  font-size: 100px;
+  margin-bottom: 15px;
+  color: #274685;
+}
+
+.footer {
+  padding: 5px;
+  margin-top: 170px;
+  background-color: #2d71a1;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+  color: rgb(215, 233, 250);
+  font-size: 15px;
+}
+
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: azure;
+  font-weight: 700;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: rgb(215, 233, 250);
+  text-decoration: none;
+}
+
+.footer .social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  line-height: 30px;
+  color: black;
+  background-color: rgb(100, 170, 236);
+  text-align: center;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.footer .social a:hover {
+  color: azure;
+}
+
+.footer .copyright {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.footer .copyright,
+.footer .credits {
+  color: aliceblue;
+  font-size: 14px;
+}

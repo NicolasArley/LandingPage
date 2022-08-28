@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+.featurestop {
+  background: linear-gradient(
+      to right,
+      rgba(39, 70, 133, 0.8) 0%,
+      rgba(61, 179, 197, 0.8) 100%
+    ),
+    url(../../assets/image/features-fondo.jpg);
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.featurestop .wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: -200px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .featurestop .wave {
+    bottom: -200px;
+  }
+}
+
+.featurestop .wave svg {
+  width: 100%;
+}
+
+.featurestopcontent {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  align-items: center;
+}
+
+.featurestopcontent h1 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.featurestopcontent p {
+  color: rgb(215, 233, 250);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: initial;
+  text-align: center;
+}
+
+.section {
+  padding: 80px;
+}
+
+.container {
+  margin-top: 85px;
+}
+
+.container h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.container p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+  font-style: inherit;
+  color: #333333;
+  margin-top: 30px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  object-position: right;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 5px;
+  background-color: #2d71a1;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+  color: rgb(215, 233, 250);
+  font-size: 15px;
+}
+
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: azure;
+  font-weight: 700;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: rgb(215, 233, 250);
+  text-decoration: none;
+}
+
+.footer .social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  line-height: 30px;
+  color: black;
+  background-color: rgb(100, 170, 236);
+  text-align: center;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+.footer .social a:hover {
+  color: azure;
+}
+
+.footer .copyright {
+  margin-bottom: 0px;
+}
+
+.footer .copyright,
+.footer .credits {
+  color: aliceblue;
+  font-size: 14px;
+}
